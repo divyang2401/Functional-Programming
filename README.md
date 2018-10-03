@@ -35,8 +35,10 @@ square divides n.</th>
 <tr> 
 <th><a href="https://github.com/divyang2401/Recursions-Functional-Programming/blob/master/P_7.sml"> 7:</a></th>
   <th>Write a curried function eval which takes such as a list and an intger c as inputs and returns the value obtained by evaluating the polynomial at value c.
-a(0)+a(1)x+...+a(n)x^n
-eval [~1,3,5] 2, val it=25:int
+ 
+ a(0)+a(1)x+...+a(n)x^n
+ 
+ eval [~1,3,5] 2, val it=25:int
  </th>
 </tr>
 <tr> 
