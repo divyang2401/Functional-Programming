@@ -26,7 +26,7 @@ square divides n.</th>
 </tr>
 <tr> 
 <th><a href="https://github.com/divyang2401/Recursions-Functional-Programming/blob/master/P_5.sml"> 5: </a></th>
-  <th>pending...</th>
+  <th>Define a function mequal which takes two lists as inputs and checks whether they have same multiset of elements.</th>
 </tr>
 <tr> 
 <th><a href="https://github.com/divyang2401/Recursions-Functional-Programming/blob/master/P_6.sml"> 6:</a></th>
