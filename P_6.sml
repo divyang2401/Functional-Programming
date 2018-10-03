@@ -43,11 +43,9 @@ fun rwnv(lambdaexp1,j:int,(V k),lambda)= if(match(lambda)=k) then (V j) else (V 
 fun alphaj(lambdaexp1,lambdaexp2) = if(rwnv(lambdaexp1,11,lambdaexp1,lambdaexp1)=rwnv(lambdaexp2,11,lambdaexp2,lambdaexp2))                                  then true else false
 end;
  
- 
- 
- fun alo(lambdaexp1, lambdaexp2)= if(alphap(lambdaexp1)=alphap(lambdaexp2)) then true 
+fun alo(lambdaexp1, lambdaexp2)= if(alphap(lambdaexp1)=alphap(lambdaexp2)) then true 
                                   else if (lambdaexp1=(Abs(0, Abs(1, V 0))) andalso lambdaexp2=(Abs(0, Abs(1, V 1)))) then false
- else false;
+                                   else false;
 
 #alo ((Abs(0, App(V 0, V 0))), (Abs(1, App(V 1, V 0))));
 #alo ((Abs(0, App(V 0, V 0))), (Abs(1, App(V 1, V 1))));
@@ -89,15 +87,6 @@ fun poc((V k),lambda)= if(k=0) then (V 0) else (V k)
 |   poc(Abs(n,u),lambda) = if(n=1) then Abs(j,poc(u,lambda)) else Abs(n,poc(u,lambda));
 fun gou(lambda1, lambdaexp2)=moc(lambda1, lambdaexp2);
 #output ((App(V 0, Abs(0, V 1))), (App(V 0, Abs(2, V 1))));
-
-
-
-
-
-
-
-
-
 
 fun alpha lambda1 lambda2 = gou(lambda1, lambda2);
  alpha;
