@@ -32,4 +32,25 @@ square divides n.</th>
 <th><a href="https://github.com/divyang2401/Recursions-Functional-Programming/blob/master/P_6.sml"> 6:</a></th>
   <th>Write a curried function alpha takes two lambd-expressions as input and checks whether they are alpha-equivalent. For instance, Abs(2,Abs(3,(V 3))) stands for lambda(v2).(lambda (v3).(v3)).</th>
 </tr>
+<tr> 
+<th><a href="https://github.com/divyang2401/Recursions-Functional-Programming/blob/master/P_7.sml"> 7:</a></th>
+  <th>Write a curried function eval which takes such as a list and an intger c as inputs and returns the value obtained by evaluating the polynomial at value c.
+a(0)+a(1)x+...+a(n)x^n
+eval [~1,3,5] 2, val it=25:int
+ </th>
+</tr>
+<tr> 
+<th><a href="https://github.com/divyang2401/Recursions-Functional-Programming/blob/master/P_8.sml"> 8:</a></th>
+  <th>Define a function findpos which takes a list ls and a value x and returns its last(rightmost) position in the list: the output should be of type int option. If x does not occur in the list the output should be NONE.
+
+findpos([2,4,8,8,4],4);
+val it= SOME 4:int option
+
+findpos(["its","a","mad","mad","mad","world"],"mad");
+val it= SOME 4:int option
+
+findpos([[1,3],[2,3],[2,2]],[3,1]);
+val it= NONE:int option</th>
+</tr>
+
 </table>  
