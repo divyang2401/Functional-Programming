@@ -30,6 +30,6 @@ square divides n.</th>
 </tr>
 <tr> 
 <th><a href="https://github.com/divyang2401/Recursions-Functional-Programming/blob/master/P_6.sml"> 6:</a></th>
-  <th>pending...</th>
+  <th>Write a curried function alpha takes two lambd-expressions as input and checks whether they are alpha-equivalent. For instance, Abs(2,Abs(3,(V 3))) stands for lambda(v2).(lambda (v3).(v3)).</th>
 </tr>
 </table>  
