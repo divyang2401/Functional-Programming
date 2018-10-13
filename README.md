@@ -1,4 +1,4 @@
-# Recursions-SML
+# Functional Programming-SML
 <h1></h1>
 <table>
  <tr>
